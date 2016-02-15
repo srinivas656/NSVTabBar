@@ -15,7 +15,7 @@ To Create the different animation on UITabBar Controller
 
 # TabBar Images Conifgiration 
 
- // To Create the TabBar icons as NSArray
+ **To Create the TabBar icons as NSArray**
  
     NSArray *imagesArray = [NSArray arrayWithObjects:@"home.png",@"maps.png",@"myplan.png",@"settings.png",@"maps.png", nil];
     
@@ -29,7 +29,7 @@ To Create the different animation on UITabBar Controller
     
 # TabBar Title Customization
 
- // To Create the attribute dictionary for title for color and font
+ **To Create the attribute dictionary for title for color and font**
  
     NSDictionary *Attribute =  [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,nil];
     
