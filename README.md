@@ -3,7 +3,7 @@ To Create the different animation on UITabBar Controller
 
 # List of Animations
 
-** 1) BOUNCE **
+**1) BOUNCE**
 
 2) FILP
 
