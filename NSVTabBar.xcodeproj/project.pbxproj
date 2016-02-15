@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC0843F1C71C36B00EA6E34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC0843E1C71C36B00EA6E34 /* main.m */; };
+		ACC084421C71C36B00EA6E34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC084411C71C36B00EA6E34 /* AppDelegate.m */; };
+		ACC084451C71C36B00EA6E34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC084441C71C36B00EA6E34 /* ViewController.m */; };
+		ACC084481C71C36B00EA6E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC084461C71C36B00EA6E34 /* Main.storyboard */; };
+		ACC0844A1C71C36B00EA6E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC084491C71C36B00EA6E34 /* Assets.xcassets */; };
+		ACC0844D1C71C36B00EA6E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC0844B1C71C36B00EA6E34 /* LaunchScreen.storyboard */; };
+		ACC084581C71C42C00EA6E34 /* NSVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC084551C71C42C00EA6E34 /* NSVTabBarController.m */; };
+		ACC084591C71C42C00EA6E34 /* NSVBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC084571C71C42C00EA6E34 /* NSVBarController.m */; };
+		ACC084701C71C45F00EA6E34 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0845B1C71C45F00EA6E34 /* home.png */; };
+		ACC084711C71C45F00EA6E34 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0845C1C71C45F00EA6E34 /* home@2x.png */; };
+		ACC084721C71C45F00EA6E34 /* home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0845D1C71C45F00EA6E34 /* home_selected.png */; };
+		ACC084731C71C45F00EA6E34 /* home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0845E1C71C45F00EA6E34 /* home_selected@2x.png */; };
+		ACC084741C71C45F00EA6E34 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0845F1C71C45F00EA6E34 /* maps.png */; };
+		ACC084751C71C45F00EA6E34 /* maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084601C71C45F00EA6E34 /* maps@2x.png */; };
+		ACC084761C71C45F00EA6E34 /* maps_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084611C71C45F00EA6E34 /* maps_selected.png */; };
+		ACC084771C71C45F00EA6E34 /* maps_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084621C71C45F00EA6E34 /* maps_selected@2x.png */; };
+		ACC084781C71C45F00EA6E34 /* myplan.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084631C71C45F00EA6E34 /* myplan.png */; };
+		ACC084791C71C45F00EA6E34 /* myplan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084641C71C45F00EA6E34 /* myplan@2x.png */; };
+		ACC0847A1C71C45F00EA6E34 /* myplan_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084651C71C45F00EA6E34 /* myplan_selected.png */; };
+		ACC0847B1C71C45F00EA6E34 /* myplan_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084661C71C45F00EA6E34 /* myplan_selected@2x.png */; };
+		ACC0847C1C71C45F00EA6E34 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084671C71C45F00EA6E34 /* settings.png */; };
+		ACC0847D1C71C45F00EA6E34 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084681C71C45F00EA6E34 /* settings@2x.png */; };
+		ACC0847E1C71C45F00EA6E34 /* settings_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC084691C71C45F00EA6E34 /* settings_selected.png */; };
+		ACC0847F1C71C45F00EA6E34 /* settings_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0846A1C71C45F00EA6E34 /* settings_selected@2x.png */; };
+		ACC084801C71C45F00EA6E34 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0846B1C71C45F00EA6E34 /* tabbar.png */; };
+		ACC084811C71C45F00EA6E34 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0846C1C71C45F00EA6E34 /* tabbar@2x.png */; };
+		ACC084821C71C45F00EA6E34 /* tabbar_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0846D1C71C45F00EA6E34 /* tabbar_selected.png */; };
+		ACC084831C71C45F00EA6E34 /* tabbar_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0846E1C71C45F00EA6E34 /* tabbar_selected@2x.png */; };
+		ACC084841C71C45F00EA6E34 /* tabbar_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC0846F1C71C45F00EA6E34 /* tabbar_selected@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACC0843A1C71C36B00EA6E34 /* NSVTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSVTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC0843E1C71C36B00EA6E34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACC084401C71C36B00EA6E34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACC084411C71C36B00EA6E34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACC084431C71C36B00EA6E34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACC084441C71C36B00EA6E34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACC084471C71C36B00EA6E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC084491C71C36B00EA6E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC0844C1C71C36B00EA6E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC0844E1C71C36B00EA6E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC084541C71C42C00EA6E34 /* NSVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSVTabBarController.h; sourceTree = "<group>"; };
+		ACC084551C71C42C00EA6E34 /* NSVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSVTabBarController.m; sourceTree = "<group>"; };
+		ACC084561C71C42C00EA6E34 /* NSVBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSVBarController.h; sourceTree = "<group>"; };
+		ACC084571C71C42C00EA6E34 /* NSVBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSVBarController.m; sourceTree = "<group>"; };
+		ACC0845B1C71C45F00EA6E34 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		ACC0845C1C71C45F00EA6E34 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		ACC0845D1C71C45F00EA6E34 /* home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_selected.png; sourceTree = "<group>"; };
+		ACC0845E1C71C45F00EA6E34 /* home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected@2x.png"; sourceTree = "<group>"; };
+		ACC0845F1C71C45F00EA6E34 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		ACC084601C71C45F00EA6E34 /* maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maps@2x.png"; sourceTree = "<group>"; };
+		ACC084611C71C45F00EA6E34 /* maps_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps_selected.png; sourceTree = "<group>"; };
+		ACC084621C71C45F00EA6E34 /* maps_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maps_selected@2x.png"; sourceTree = "<group>"; };
+		ACC084631C71C45F00EA6E34 /* myplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myplan.png; sourceTree = "<group>"; };
+		ACC084641C71C45F00EA6E34 /* myplan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myplan@2x.png"; sourceTree = "<group>"; };
+		ACC084651C71C45F00EA6E34 /* myplan_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myplan_selected.png; sourceTree = "<group>"; };
+		ACC084661C71C45F00EA6E34 /* myplan_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myplan_selected@2x.png"; sourceTree = "<group>"; };
+		ACC084671C71C45F00EA6E34 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		ACC084681C71C45F00EA6E34 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		ACC084691C71C45F00EA6E34 /* settings_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_selected.png; sourceTree = "<group>"; };
+		ACC0846A1C71C45F00EA6E34 /* settings_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_selected@2x.png"; sourceTree = "<group>"; };
+		ACC0846B1C71C45F00EA6E34 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		ACC0846C1C71C45F00EA6E34 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		ACC0846D1C71C45F00EA6E34 /* tabbar_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_selected.png; sourceTree = "<group>"; };
+		ACC0846E1C71C45F00EA6E34 /* tabbar_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_selected@2x.png"; sourceTree = "<group>"; };
+		ACC0846F1C71C45F00EA6E34 /* tabbar_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_selected@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC084371C71C36B00EA6E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC084311C71C36B00EA6E34 = {
+			isa = PBXGroup;
+			children = (
+				ACC0843C1C71C36B00EA6E34 /* NSVTabBar */,
+				ACC0843B1C71C36B00EA6E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC0843B1C71C36B00EA6E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0843A1C71C36B00EA6E34 /* NSVTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC0843C1C71C36B00EA6E34 /* NSVTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				ACC084401C71C36B00EA6E34 /* AppDelegate.h */,
+				ACC084411C71C36B00EA6E34 /* AppDelegate.m */,
+				ACC084431C71C36B00EA6E34 /* ViewController.h */,
+				ACC084441C71C36B00EA6E34 /* ViewController.m */,
+				ACC084541C71C42C00EA6E34 /* NSVTabBarController.h */,
+				ACC084551C71C42C00EA6E34 /* NSVTabBarController.m */,
+				ACC084561C71C42C00EA6E34 /* NSVBarController.h */,
+				ACC084571C71C42C00EA6E34 /* NSVBarController.m */,
+				ACC084461C71C36B00EA6E34 /* Main.storyboard */,
+				ACC084491C71C36B00EA6E34 /* Assets.xcassets */,
+				ACC0844B1C71C36B00EA6E34 /* LaunchScreen.storyboard */,
+				ACC0844E1C71C36B00EA6E34 /* Info.plist */,
+				ACC0843D1C71C36B00EA6E34 /* Supporting Files */,
+			);
+			path = NSVTabBar;
+			sourceTree = "<group>";
+		};
+		ACC0843D1C71C36B00EA6E34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0845A1C71C45F00EA6E34 /* custom-tab-app-images */,
+				ACC0843E1C71C36B00EA6E34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACC0845A1C71C45F00EA6E34 /* custom-tab-app-images */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0845B1C71C45F00EA6E34 /* home.png */,
+				ACC0845C1C71C45F00EA6E34 /* home@2x.png */,
+				ACC0845D1C71C45F00EA6E34 /* home_selected.png */,
+				ACC0845E1C71C45F00EA6E34 /* home_selected@2x.png */,
+				ACC0845F1C71C45F00EA6E34 /* maps.png */,
+				ACC084601C71C45F00EA6E34 /* maps@2x.png */,
+				ACC084611C71C45F00EA6E34 /* maps_selected.png */,
+				ACC084621C71C45F00EA6E34 /* maps_selected@2x.png */,
+				ACC084631C71C45F00EA6E34 /* myplan.png */,
+				ACC084641C71C45F00EA6E34 /* myplan@2x.png */,
+				ACC084651C71C45F00EA6E34 /* myplan_selected.png */,
+				ACC084661C71C45F00EA6E34 /* myplan_selected@2x.png */,
+				ACC084671C71C45F00EA6E34 /* settings.png */,
+				ACC084681C71C45F00EA6E34 /* settings@2x.png */,
+				ACC084691C71C45F00EA6E34 /* settings_selected.png */,
+				ACC0846A1C71C45F00EA6E34 /* settings_selected@2x.png */,
+				ACC0846B1C71C45F00EA6E34 /* tabbar.png */,
+				ACC0846C1C71C45F00EA6E34 /* tabbar@2x.png */,
+				ACC0846D1C71C45F00EA6E34 /* tabbar_selected.png */,
+				ACC0846E1C71C45F00EA6E34 /* tabbar_selected@2x.png */,
+				ACC0846F1C71C45F00EA6E34 /* tabbar_selected@3x.png */,
+			);
+			path = "custom-tab-app-images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC084391C71C36B00EA6E34 /* NSVTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC084511C71C36B00EA6E34 /* Build configuration list for PBXNativeTarget "NSVTabBar" */;
+			buildPhases = (
+				ACC084361C71C36B00EA6E34 /* Sources */,
+				ACC084371C71C36B00EA6E34 /* Frameworks */,
+				ACC084381C71C36B00EA6E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSVTabBar;
+			productName = NSVTabBar;
+			productReference = ACC0843A1C71C36B00EA6E34 /* NSVTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC084321C71C36B00EA6E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Microexcel;
+				TargetAttributes = {
+					ACC084391C71C36B00EA6E34 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = ACC084351C71C36B00EA6E34 /* Build configuration list for PBXProject "NSVTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC084311C71C36B00EA6E34;
+			productRefGroup = ACC0843B1C71C36B00EA6E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC084391C71C36B00EA6E34 /* NSVTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC084381C71C36B00EA6E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC084841C71C45F00EA6E34 /* tabbar_selected@3x.png in Resources */,
+				ACC084831C71C45F00EA6E34 /* tabbar_selected@2x.png in Resources */,
+				ACC0847F1C71C45F00EA6E34 /* settings_selected@2x.png in Resources */,
+				ACC0847C1C71C45F00EA6E34 /* settings.png in Resources */,
+				ACC0847B1C71C45F00EA6E34 /* myplan_selected@2x.png in Resources */,
+				ACC084731C71C45F00EA6E34 /* home_selected@2x.png in Resources */,
+				ACC084711C71C45F00EA6E34 /* home@2x.png in Resources */,
+				ACC084801C71C45F00EA6E34 /* tabbar.png in Resources */,
+				ACC084781C71C45F00EA6E34 /* myplan.png in Resources */,
+				ACC0847D1C71C45F00EA6E34 /* settings@2x.png in Resources */,
+				ACC084701C71C45F00EA6E34 /* home.png in Resources */,
+				ACC0847E1C71C45F00EA6E34 /* settings_selected.png in Resources */,
+				ACC084821C71C45F00EA6E34 /* tabbar_selected.png in Resources */,
+				ACC0844D1C71C36B00EA6E34 /* LaunchScreen.storyboard in Resources */,
+				ACC084751C71C45F00EA6E34 /* maps@2x.png in Resources */,
+				ACC084811C71C45F00EA6E34 /* tabbar@2x.png in Resources */,
+				ACC084791C71C45F00EA6E34 /* myplan@2x.png in Resources */,
+				ACC084771C71C45F00EA6E34 /* maps_selected@2x.png in Resources */,
+				ACC084761C71C45F00EA6E34 /* maps_selected.png in Resources */,
+				ACC084741C71C45F00EA6E34 /* maps.png in Resources */,
+				ACC0844A1C71C36B00EA6E34 /* Assets.xcassets in Resources */,
+				ACC0847A1C71C45F00EA6E34 /* myplan_selected.png in Resources */,
+				ACC084481C71C36B00EA6E34 /* Main.storyboard in Resources */,
+				ACC084721C71C45F00EA6E34 /* home_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC084361C71C36B00EA6E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC084451C71C36B00EA6E34 /* ViewController.m in Sources */,
+				ACC084591C71C42C00EA6E34 /* NSVBarController.m in Sources */,
+				ACC084421C71C36B00EA6E34 /* AppDelegate.m in Sources */,
+				ACC0843F1C71C36B00EA6E34 /* main.m in Sources */,
+				ACC084581C71C42C00EA6E34 /* NSVTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC084461C71C36B00EA6E34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC084471C71C36B00EA6E34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC0844B1C71C36B00EA6E34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC0844C1C71C36B00EA6E34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC0844F1C71C36B00EA6E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC084501C71C36B00EA6E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC084521C71C36B00EA6E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSVTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microexcel.NSVTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACC084531C71C36B00EA6E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSVTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microexcel.NSVTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC084351C71C36B00EA6E34 /* Build configuration list for PBXProject "NSVTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC0844F1C71C36B00EA6E34 /* Debug */,
+				ACC084501C71C36B00EA6E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC084511C71C36B00EA6E34 /* Build configuration list for PBXNativeTarget "NSVTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC084521C71C36B00EA6E34 /* Debug */,
+				ACC084531C71C36B00EA6E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC084321C71C36B00EA6E34 /* Project object */;
+}
