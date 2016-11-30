@@ -38,5 +38,7 @@ To Create the different animation on UITabBar Controller
     [NSVBarController setTabBarTitleColor:Attribute] ;
 
 # TabBar Image Animation 
-
   [NSVBarController setAnimation:tabBarController andAnimationType:NSAnimation_CurlDown];
+  
+# SWIFT 
+https://github.com/srinivas656/NSVTabbar-Swift
